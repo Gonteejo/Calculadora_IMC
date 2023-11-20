@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Termometro from './components/Termometro'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <h1>Olá mundo</h1>
+      <Termometro classname />
     </>
   )
 }
