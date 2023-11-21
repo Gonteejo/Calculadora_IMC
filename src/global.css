@@ -1,0 +1,12 @@
+.container { 
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Termometro {
+    margin: 0 auto;
+}
