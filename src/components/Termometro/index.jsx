@@ -19,8 +19,11 @@ const escalaIMC = (value) => {
   else if (value >= 17) {
     return ' Abaixo do peso';
   }
-  else {
+  else if (value > 1) {
     return ' Muito abaixo do peso';
+  }
+  else {
+    return '';
   }
 }
 
